@@ -201,8 +201,8 @@ form button {
   }
 
   .modal img {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 40%;
+    max-height: 40%;
   }
 }
 
