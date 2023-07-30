@@ -204,6 +204,17 @@ form button {
     max-width: 40%;
     max-height: 40%;
   }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-size:1rem;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
