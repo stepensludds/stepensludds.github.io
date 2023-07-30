@@ -225,6 +225,17 @@ form button {
   .gallery img {
     max-height: 250px;
   }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-size:1rem;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -234,6 +245,17 @@ form button {
 
   .gallery img {
     max-height: 250px;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-size:1rem;
   }
 }
 
