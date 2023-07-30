@@ -51,7 +51,7 @@ nav a:hover {
   position: relative;
   text-align: center;
   padding: 4rem;
-  background-image: url('images/Background.png');
+  background-image: url('..images/Background.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
