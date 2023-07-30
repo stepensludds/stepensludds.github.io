@@ -27,13 +27,8 @@ function validateForm() {
     return false;
   }
 
-  // Additional validation logic can be added here if needed
-
   return true;
 }
-
-// Array of safety tips
-// ... (previous JavaScript code) ...
 
 // Array of safety tips
 var safetyTips = [
@@ -69,12 +64,14 @@ function getRandomSafetyTip() {
   return safetyTips[randomIndex];
 }
 
-// Display a random safety tip on page load
-updateRandomSafetyTip();
-
 // Function to change the random safety tip
 function changeRandomSafetyTip() {
   var randomTip = getRandomSafetyTip();
   var randomTipElement = document.getElementById('randomSafetyTip');
   randomTipElement.textContent = randomTip;
 }
+
+
+
+
+
