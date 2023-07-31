@@ -81,7 +81,6 @@ nav a:hover {
 #gallery {
   background-image: url('images/galleryBackground.jpg');
   background-size: cover;
-  background-position: absolute;
   padding: 4rem;
   text-align: center;
   color: #fff;
@@ -152,7 +151,6 @@ form input,
 form select,
 form textarea,
 form button {
-  display: auto;
   margin: 5px auto;
   width: 100%;
   max-width: 300px;
@@ -295,7 +293,7 @@ form button {
   form select,
   form textarea,
   form button {
-    display: auto;
+
     margin: 5px auto;
     width: 100%;
     max-width: 600px;
